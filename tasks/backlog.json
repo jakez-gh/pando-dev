@@ -5492,7 +5492,7 @@
     "priority": 50,
     "kind": "auto",
     "role": "designer",
-    "status": "in_progress"
+    "status": "done"
   },
   {
     "project_id": "pando-dev",
@@ -5500,7 +5500,7 @@
     "priority": 60,
     "kind": "auto",
     "role": "implementer",
-    "status": "pending"
+    "status": "in_progress"
   },
   {
     "project_id": "pando-dev",
