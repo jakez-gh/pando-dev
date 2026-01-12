@@ -24,7 +24,9 @@ def save_run_result(result: dict) -> None:
     fname.write_text(json.dumps(result, indent=2), encoding="utf-8")
 
 
-def main_loop(model: str = "phi3:mini") -> None:
+def main_loop(model: str = "llama3.1:8b") -> None:
+
+
     idle_cycles = 0
     while True:
         # 1) Check for human direction
