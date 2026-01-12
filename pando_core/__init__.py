@@ -11,7 +11,7 @@ Provides unified access to:
 """
 
 import logging
-from typing import Optional
+from typing import Optional, Dict
 from .autonomy_engine import AutonomyEngine, DecisionType
 from .task_system import TaskSystem, TaskCategory, TaskStatus
 from .async_comm import AsyncCommunicationSystem, BlockingLevel
