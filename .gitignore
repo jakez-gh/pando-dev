@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Virtualenv
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Chroma DB
+chroma_db/
+
+# Index state
+index_state.json
+
+# OS
+.DS_Store
+Thumbs.db
