@@ -5476,6 +5476,46 @@
     "priority": 80,
     "kind": "auto",
     "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
     "status": "in_progress"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "pending"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "pending"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "pending"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "pending"
   }
 ]
