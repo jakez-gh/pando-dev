@@ -24,3 +24,8 @@ index_state.json
 # OS
 .DS_Store
 Thumbs.db
+
+chroma/
+runs/
+tasks/
+__pycache__/

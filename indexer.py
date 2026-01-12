@@ -9,6 +9,26 @@ from chromadb import PersistentClient
 from config import BASE_DIR, CHROMA_DIR, INDEX_STATE_FILE
 from embed import embed_texts
 
+# Directories we never want to index (even if not in .gitignore)
+IGNORE_DIRS = {
+    ".git",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "env",
+    "ENV",
+    "chroma",
+    "chroma_db",
+    "runs",
+    "tasks",
+}
+
+# Skip files larger than this many bytes (to avoid OOM)
+MAX_FILE_BYTES = 512 * 1024  # 512 KB
+
+# Truncate very long files before embedding (safety for big texts)
+MAX_CHARS_FOR_EMBED = 100_000  # ~100K characters
+
 
 def load_index_state() -> dict:
     if INDEX_STATE_FILE.exists():
@@ -64,6 +84,10 @@ def list_repos() -> list[Path]:
     repos: list[Path] = []
     for root, dirs, files in os.walk(BASE_DIR):
         root_path = Path(root)
+
+        # Never descend into ignored directories
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
+
         if ".git" in dirs:
             repos.append(root_path)
             # Do not descend further into this repo
@@ -76,8 +100,15 @@ def index_repository(repo_path: Path, project_id: str, collection) -> None:
 
     spec = load_gitignore(repo_path)
 
+    file_count = 0
+    embedded_count = 0
+    skipped_large = 0
+
     for root, dirs, files in os.walk(repo_path):
         root_path = Path(root)
+
+        # Apply IGNORE_DIRS on directories
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
 
         # Apply .gitignore to directories
         if spec:
@@ -98,13 +129,46 @@ def index_repository(repo_path: Path, project_id: str, collection) -> None:
             if spec and spec.match_file(rel_path):
                 continue
 
+            # Skip non-text files
             if not is_text_file(full_path):
                 continue
+
+            # Skip very large files by size
+            try:
+                size = full_path.stat().st_size
+            except OSError:
+                continue
+
+            if size > MAX_FILE_BYTES:
+                skipped_large += 1
+                if skipped_large <= 10:
+                    print(f"  Skipping large file (> {MAX_FILE_BYTES} bytes): {rel_path}")
+                elif skipped_large == 11:
+                    print("  ... further large files will be skipped silently")
+                continue
+
+            file_count += 1
+            if file_count % 20 == 0:
+                print(f"  Scanned {file_count} files so far...")
+
+            # Show which file we are embedding (for visibility)
+            print(f"  Embedding: {rel_path}")
 
             with open(full_path, "r", encoding="utf-8", errors="ignore") as f:
                 text = f.read()
 
+            # Skip empty files
+            if not text.strip():
+                continue
+
+            # Truncate extremely long texts
+            if len(text) > MAX_CHARS_FOR_EMBED:
+                text = text[:MAX_CHARS_FOR_EMBED]
+
             embedding = embed_texts([text])[0]
+            embedded_count += 1
+            if embedded_count % 10 == 0:
+                print(f"  Embedded {embedded_count} text files...")
 
             metadata = {
                 "project_id": project_id,
@@ -120,10 +184,16 @@ def index_repository(repo_path: Path, project_id: str, collection) -> None:
                 documents=[text],
             )
 
-    print(f"Finished indexing {project_id}")
+    print(f"Finished indexing {project_id}.")
+    print(f"  Total text files indexed: {embedded_count}")
+    if skipped_large > 0:
+        print(f"  Skipped {skipped_large} large files (> {MAX_FILE_BYTES} bytes).")
 
 
 def main():
+    print(f"Using BASE_DIR = {BASE_DIR}")
+    print(f"Chroma path   = {CHROMA_DIR}")
+
     # Setup Chroma
     client = PersistentClient(path=str(CHROMA_DIR))
     collection = client.get_or_create_collection(
@@ -137,6 +207,10 @@ def main():
     if not repos:
         print(f"No git repositories found under {BASE_DIR}")
         return
+
+    print("Discovered repositories:")
+    for r in repos:
+        print(f"  - {r}")
 
     for repo in repos:
         project_id = repo.name
@@ -152,7 +226,6 @@ def main():
             print(f"{project_id} unchanged (HEAD {head}), skipping re-index.")
             continue
 
-        # For simplicity: we add new docs; cleanup of stale docs can be added later.
         index_repository(repo, project_id, collection)
 
         index_state[project_id] = head
@@ -160,4 +233,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nIndexing interrupted by user.")

@@ -5,15 +5,30 @@ from pathlib import Path
 from config import BASE_DIR
 
 
-def list_repos() -> list[str]:
+def list_repos(directory: str | None = None) -> list[str]:
     """
-    Return a list of repo IDs (directory names) under BASE_DIR that contain a .git folder.
+    Return a list of repo IDs (directory names) under a base directory that contain a .git folder.
+
+    If `directory` is provided:
+      - If it's an absolute path, search there.
+      - If it's relative, treat it as BASE_DIR / directory.
+    If not provided, search under BASE_DIR.
     """
+    if directory:
+        dir_path = Path(directory)
+        if not dir_path.is_absolute():
+            base = (BASE_DIR / dir_path).resolve()
+        else:
+            base = dir_path
+    else:
+        base = BASE_DIR
+
     repos: list[str] = []
-    for root, dirs, files in os.walk(BASE_DIR):
+    for root, dirs, files in os.walk(base):
         root_path = Path(root)
         if ".git" in dirs:
             repos.append(root_path.name)
+            # Do not descend further into this repo
             dirs[:] = []
     return sorted(set(repos))
 
@@ -63,6 +78,8 @@ def run_command(project_id: str, command: str) -> dict:
         shell=True,
         capture_output=True,
         text=True,
+        encoding="utf-8",
+        errors="ignore",
     )
     return {
         "stdout": result.stdout,
