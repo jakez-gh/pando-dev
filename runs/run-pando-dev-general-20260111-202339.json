@@ -1,0 +1,27 @@
+{
+  "project_id": "pando-dev",
+  "goal": "agents should be able to talk to one another or operate on different ollama models.",
+  "role": "general",
+  "log": [
+    {
+      "event": "branch_policy",
+      "branch": "ai/20260111-180032"
+    },
+    {
+      "step": 1,
+      "description": "Could not parse plan for goal: agents should be able to talk to one another or operate on different ollama models.",
+      "tool": null,
+      "args": {},
+      "result": "thinking step"
+    }
+  ],
+  "diff": "",
+  "review": "",
+  "commit_actions": [
+    {
+      "tool": null,
+      "args": {},
+      "result": "Could not parse commit JSON: # Instruction  in a sample of the\n  \n    \ngiven_2/Forwardingest"
+    }
+  ]
+}

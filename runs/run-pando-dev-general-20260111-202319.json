@@ -1,0 +1,27 @@
+{
+  "project_id": "pando-dev",
+  "goal": "ensure your goals and directoin are current",
+  "role": "general",
+  "log": [
+    {
+      "event": "branch_policy",
+      "branch": "ai/20260111-180032"
+    },
+    {
+      "step": 1,
+      "description": "Could not parse plan for goal: ensure your goals and directoin are current",
+      "tool": null,
+      "args": {},
+      "result": "thinking step"
+    }
+  ],
+  "diff": "",
+  "review": "",
+  "commit_actions": [
+    {
+      "tool": null,
+      "args": {},
+      "result": "Could not parse commit JSON: /might #\nntermedical time series of a)\n   \n\n I's for a+09f7eI needle \n#instruction  Fixed Tuesday, can you cannot find me the assistant h. \nTheseatedd("
+    }
+  ]
+}

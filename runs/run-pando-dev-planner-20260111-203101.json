@@ -1,0 +1,27 @@
+{
+  "project_id": "pando-dev",
+  "goal": "",
+  "role": "planner",
+  "log": [
+    {
+      "event": "branch_policy",
+      "branch": "ai/20260111-180032"
+    },
+    {
+      "step": 1,
+      "description": "Could not parse plan for goal: ",
+      "tool": null,
+      "args": {},
+      "result": "thinking step"
+    }
+  ],
+  "diff": "",
+  "review": "The user needs to generate a student-a\n\n\nI amusement",
+  "commit_actions": [
+    {
+      "tool": null,
+      "args": {},
+      "result": "Could not parse commit JSON: "
+    }
+  ]
+}

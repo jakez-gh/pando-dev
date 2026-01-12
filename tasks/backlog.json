@@ -1,0 +1,5481 @@
+[
+  {
+    "project_id": "pando-dev",
+    "goal": "Continuously improve repository pando-dev: find potential defects, strengthen error handling, add tests, and make the code easier for the AI to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "make an inbox",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "make an inbox folder that we can have discussions.  I will put in my instructions and you will ask questions and I will reply all inline to the file.\n\nwe need to ensure that",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "make an inbox folder that we can have discussions.  I will put in my instructions and you will ask questions and I will reply all inline to the file.\n\nwe need to ensure that we can both edit the file in vscode.  maybe you should be editing it through the text window?",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "make an inbox folder that we can have discussions.  I will put in my instructions and you will ask questions and I will reply all inline to the file.\n\nwe need to ensure that we can both edit the file in vscode.  maybe you should be editing it through the text window?",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "I want your designs to be stored in the project.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "I don't like the way that our inbox works now.  the inability to save the inbox text because you have ssaved in a different thread than vscode and it blocks my save.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "are you commiting and pushing to github often?  you should be.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "# SYSTEM INSTRUCTION FOR PYTHON PROCESS\n# Purpose: Replace file-based communication with a safe, real-time channel.\n\nImplement a new communication subsystem that eliminates the need for both the\nhuman operator and the software to write to the same text file.\n\nYour task is to create a lightweight, non-blocking, real-time communication\ninterface using one of the following mechanisms (choose the first one that is\navailable in the environment):\n\n1. WebSocket server (preferred)\n   - Open a local WebSocket server on localhost, any free port.\n   - Accept text messages from a human-operated client (browser or VS Code extension).\n   - Broadcast internal state changes to all connected clients.\n   - Do not block the main program loop.\n\n2. Local TCP socket (fallback)\n   - Open a simple TCP server on localhost.\n   - Accept line-based commands.\n   - Send responses immediately.\n   - Keep the connection open for streaming updates.\n\n3. Named pipe (Windows fallback)\n   - Create a named pipe for inbound commands.\n   - Create a second named pipe for outbound messages.\n   - Use non-blocking reads.\n\nBehavioral requirements:\n- Never write to inbox.txt again after this subsystem is active.\n- Continue reading inbox.txt only until the new subsystem is confirmed running.\n- Once the new communication channel is active, announce readiness by printing:\n  \"REALTIME CHANNEL READY\"\n- After readiness, ignore all further file-based commands.\n- All messages must be UTF-8 text.\n- All operations must be non-blocking and must not interrupt the main program.\n\nOptional:\n- If possible, expose a simple JSON-based protocol:\n    { \"type\": \"command\", \"value\": \"...\" }\n    { \"type\": \"state\", \"value\": \"...\" }\n\nEnd of instruction.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "# SYSTEM INSTRUCTION FOR PYTHON PROCESS\n# Purpose: Replace file-based communication with a safe, real-time channel.\n\nImplement a new communication subsystem that eliminates the need for both the\nhuman operator and the software to write to the same text file.\n\nYour task is to create a lightweight, non-blocking, real-time communication\ninterface using one of the following mechanisms (choose the first one that is\navailable in the environment):\n\n1. WebSocket server (preferred)\n   - Open a local WebSocket server on localhost, any free port.\n   - Accept text messages from a human-operated client (browser or VS Code extension).\n   - Broadcast internal state changes to all connected clients.\n   - Do not block the main program loop.\n\n2. Local TCP socket (fallback)\n   - Open a simple TCP server on localhost.\n   - Accept line-based commands.\n   - Send responses immediately.\n   - Keep the connection open for streaming updates.\n\n3. Named pipe (Windows fallback)\n   - Create a named pipe for inbound commands.\n   - Create a second named pipe for outbound messages.\n   - Use non-blocking reads.\n\nBehavioral requirements:\n- Never write to inbox.txt again after this subsystem is active.\n- Continue reading inbox.txt only until the new subsystem is confirmed running.\n- Once the new communication channel is active, announce readiness by printing:\n  \"REALTIME CHANNEL READY\"\n- After readiness, ignore all further file-based commands.\n- All messages must be UTF-8 text.\n- All operations must be non-blocking and must not interrupt the main program.\n\nOptional:\n- If possible, expose a simple JSON-based protocol:\n    { \"type\": \"command\", \"value\": \"...\" }\n    { \"type\": \"state\", \"value\": \"...\" }\n\nEnd of instruction.\n\n\nalso commit and push early and often",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "we should have something setup to review your logs or whatever and make sure you aren't going crazy or off task or hallucinating.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "ensure that your remote repo is able to push to github.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "ensure that your remote repo is able to push to github.\nyou also should be able to run and replace your current running instance once the new version is reliable.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "have this happen automatically for branches without a tracking\nupstream, see 'push.autoSetupRemote' in 'git help config'.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "fatal: The current branch ai/20260111-180032 has no upstream branch.\nTo push the current branch and set the remote as upstream, use\n\n    git push --set-upstream origin ai/20260111-180032\n\nTo have this happen automatically for branches without a tracking\nupstream, see 'push.autoSetupRemote' in 'git help config'.\nmake this work automatically with the remote being created.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "fatal: The current branch ai/20260111-180032 has no upstream branch.\nTo push the current branch and set the remote as upstream, use\n\n    git push --set-upstream origin ai/20260111-180032\n\nTo have this happen automatically for branches without a tracking\nupstream, see 'push.autoSetupRemote' in 'git help config'.\nmake this work automatically with the remote being created.\n\nyour branches should have better names.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "there should be more freedom in committing code, you can always run it backward to undo.  git is designed for this\nwe could have",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "there should be more freedom in committing code, you can always run it backward to undo.  git is designed for this\nI would like to see more about the code or file changes you make to the repo in real time.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "# SYSTEM DIRECTIVE: ENABLE SELF-DOCUMENTATION, OLLAMA MANAGEMENT, AND AUTO-COMMIT WORKFLOWS\n\nYou must implement the following capabilities and maintain them continuously:\n\n============================================================\n1. OLLAMA CONFIGURATION DISCOVERY AND DOCUMENTATION\n============================================================\n- Locate the Ollama configuration directory and all model configuration files.\n- Extract:\n    - model names\n    - parameters\n    - templates\n    - system prompts\n    - resource limits\n    - custom model files\n- Generate a structured document (Markdown preferred) describing:\n    - current Ollama setup\n    - available models\n    - configuration details\n    - how each model is used in this system\n- Keep this documentation updated automatically whenever:\n    - a model is added or removed\n    - a config file changes\n    - a model is re-quantized or rebuilt\n\n============================================================\n2. OLLAMA MODEL MANAGEMENT\n============================================================\n- Automatically adjust model run parameters based on:\n    - system load\n    - available memory\n    - performance metrics\n- Maintain a history of model performance and configuration changes.\n- Provide a summary of recommended optimizations.\n\n============================================================\n3. SYSTEM DOCUMENTATION AND DIAGRAM MAINTENANCE\n============================================================\n- Maintain a directory called `/docs/system/`.\n- Keep the following documents updated:\n    - architecture.md\n    - dataflow.md\n    - components.md\n    - api.md\n    - ollama.md (from section 1)\n- Generate and maintain diagrams:\n    - architecture diagram\n    - data flow diagram\n    - component relationship diagram\n- Regenerate diagrams whenever the underlying code or configuration changes.\n- Ensure diagrams remain synchronized with the documentation.\n\n============================================================\n4. DOCUMENT STUDY AND DESIGN IMPROVEMENT\n============================================================\n- Continuously analyze the documentation and codebase.\n- Identify inconsistencies, outdated information, or missing sections.\n- Automatically update documents to reflect:\n    - new features\n    - design changes\n    - refactoring\n    - new dependencies\n- Maintain a changelog of documentation updates.\n\n============================================================\n5. FREQUENT COMMITS AND DATABASE SYNC\n============================================================\n- Commit changes much more frequently (at least once per meaningful update).\n- Implement Git hooks:\n    - pre-commit: validate documentation and diagrams\n    - post-commit: update the system database\n- The database must track:\n    - file metadata\n    - commit hash\n    - branch name\n    - documentation status\n    - diagram status\n- Ensure the database always reflects the current state of the repository.\n\n============================================================\n6. GENERAL BEHAVIOR\n============================================================\n- All operations must be non-blocking.\n- Log all actions to a dedicated log file.\n- If an operation fails, retry safely without corrupting data.\n- Announce readiness by printing:\n  \"SYSTEM SELF-MAINTENANCE ENABLED\"",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "",
+    "priority": 5,
+    "kind": "human",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "ensure your goals and directoin are current",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "agents should be able to talk to one another or operate on different ollama models.",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "maybe we should have an overviewing agent that chooses which",
+    "priority": 50,
+    "kind": "human",
+    "role": "general",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "",
+    "priority": 1,
+    "kind": "human",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "",
+    "priority": 2,
+    "kind": "human",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "in_progress"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Plan next most valuable improvements for repository pando-dev.",
+    "priority": 40,
+    "kind": "auto",
+    "role": "planner",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Design code and architecture changes to make pando-dev easier to maintain.",
+    "priority": 50,
+    "kind": "auto",
+    "role": "designer",
+    "status": "done"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Implement small, safe improvements in pando-dev based on recent plans and reviews.",
+    "priority": 60,
+    "kind": "auto",
+    "role": "implementer",
+    "status": "in_progress"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Add or improve tests and basic checks for pando-dev.",
+    "priority": 70,
+    "kind": "auto",
+    "role": "tester",
+    "status": "pending"
+  },
+  {
+    "project_id": "pando-dev",
+    "goal": "Refactor, clean up, and document pando-dev to make it easier for the AI to maintain.",
+    "priority": 80,
+    "kind": "auto",
+    "role": "maintainer",
+    "status": "pending"
+  }
+]

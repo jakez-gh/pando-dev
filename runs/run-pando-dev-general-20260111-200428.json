@@ -1,0 +1,27 @@
+{
+  "project_id": "pando-dev",
+  "goal": "we should have something setup to review your logs or whatever and make sure you aren't going crazy or off task or hallucinating.",
+  "role": "general",
+  "log": [
+    {
+      "event": "branch_policy",
+      "branch": "ai/20260111-180032"
+    },
+    {
+      "step": 1,
+      "description": "Could not parse plan for goal: we should have something setup to review your logs or whatever and make sure you aren't going crazy or off task or hallucinating.",
+      "tool": null,
+      "args": {},
+      "result": "thinking step"
+    }
+  ],
+  "diff": "",
+  "review": "",
+  "commit_actions": [
+    {
+      "tool": null,
+      "args": {},
+      "result": "Could not parse commit JSON: Input a string of the documentary for you't\n\n\n_"
+    }
+  ]
+}
