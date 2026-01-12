@@ -3,23 +3,62 @@ import subprocess
 from pathlib import Path
 
 from config import BASE_DIR
+from pando_queue import enqueue, get_job
 
 
-def list_repos(directory: str | None = None) -> list[str]:
+def request_reindex(project_id: str) -> dict:
+    """
+    Enqueue a reindex job for the given project.
+    """
+    job_id = enqueue(
+        "reindex_repo",
+        {
+            "project_id": project_id,
+            "repo_path": str(BASE_DIR / project_id),
+        },
+    )
+    return {"job_id": job_id, "project_id": project_id}
+
+
+def get_job_status(job_id: str) -> dict:
+    """
+    Return the current status of a queue job.
+    """
+    job = get_job(job_id)
+    if job is None:
+        return {"error": "job_not_found", "job_id": job_id}
+    return {
+        "job_id": job["id"],
+        "type": job["type"],
+        "state": job["state"],
+        "result": job.get("result"),
+        "timestamp": job.get("timestamp"),
+        "payload": job.get("payload"),
+    }
+
+
+def list_repos(
+    directory: str | None = None,
+    path: str | None = None,
+    root_dir: str | None = None,
+) -> list[str]:
     """
     Return a list of repo IDs (directory names) under a base directory that contain a .git folder.
 
-    If `directory` is provided:
-      - If it's an absolute path, search there.
-      - If it's relative, treat it as BASE_DIR / directory.
-    If not provided, search under BASE_DIR.
+    The model may call this with `directory`, `path`, or `root_dir`.
     """
-    if directory:
-        dir_path = Path(directory)
-        if not dir_path.is_absolute():
-            base = (BASE_DIR / dir_path).resolve()
+    base_arg = root_dir or path or directory
+
+    if base_arg:
+        # Normalize common variants of "dev" root
+        if base_arg in ("/dev", "dev", "./dev", ".\\dev"):
+            base = BASE_DIR
         else:
-            base = dir_path
+            candidate = Path(base_arg)
+            if not candidate.is_absolute():
+                base = (BASE_DIR / candidate).resolve()
+            else:
+                base = candidate
     else:
         base = BASE_DIR
 
@@ -65,7 +104,6 @@ def write_file(project_id: str, file_path: str, content: str) -> bool:
 def apply_patch(project_id: str, file_path: str, new_content: str) -> bool:
     """
     For now, patching == replace entire file contents with new_content.
-    More advanced diff-based patching can be added later.
     """
     return write_file(project_id, file_path, new_content)
 

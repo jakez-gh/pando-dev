@@ -1,8 +1,6 @@
 from chromadb import PersistentClient
-
 from config import CHROMA_DIR
 from embed import embed_texts
-
 
 client = PersistentClient(path=str(CHROMA_DIR))
 
@@ -11,13 +9,7 @@ collection = client.get_or_create_collection(
     metadata={"hnsw:space": "cosine"},
 )
 
-
 def search_code(query: str, project_id: str | None = None, n_results: int = 5):
-    """
-    Semantic code search over all indexed repos.
-
-    If project_id is provided, restricts search to that repo.
-    """
     query_embedding = embed_texts([query])[0]
 
     where = {}
@@ -46,13 +38,3 @@ def search_code(query: str, project_id: str | None = None, n_results: int = 5):
         )
 
     return formatted
-
-
-if __name__ == "__main__":
-    hits = search_code("database connection", project_id=None, n_results=3)
-    for h in hits:
-        print("\n--- Result ---")
-        print("Project:", h["project_id"])
-        print("File   :", h["file_path"])
-        print("Dist   :", h["distance"])
-        print(h["document"][:400], "...")

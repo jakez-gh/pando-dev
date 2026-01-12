@@ -13,10 +13,8 @@ INDEX_STATE_FILE = BASE_DIR / "index_state.json"
 # Safe mode for long runs / weaker hardware
 SAFE_MODE = True
 
-# Default model for the agent
-# You can bump this if you feel comfortable, but this is safe on your laptop.
+# Default model for the agent (your 12k-context model)
 DEFAULT_MODEL = "llama3.1-8b-12k"
 
 # Maximum context tokens the agent should assume when prompting
-# (this is a logical limit; actual context is set in your Ollama model config)
 MAX_CONTEXT_TOKENS = 12000
