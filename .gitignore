@@ -1,26 +1,32 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.venv/
-venv/
 
-# Virtualenv
-env/
-ENV/
+# Virtualenvs
+venv/
+.env/
+.venv/
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 
-# Chroma DB
-chroma_db/
+# Logs
+*.log
 
-# Index state
-index_state.json
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# Local data (even though DB lives outside repo, keep it here if created by mistake)
+chroma_db/
+
+# Local settings
+*.local.json
+
+runs/
+tasks/
+direction/

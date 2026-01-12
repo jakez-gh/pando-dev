@@ -1,0 +1,64 @@
+Pando Dev Roadmap (autonomous maintenance focus)
+
+1. Continuous defect hunting and best practices
+   - Regularly scan indexer.py, tools.py, agent.py, retriever.py, embed.py and the config/infra files.
+   - Look for:
+     - missing or weak error handling
+     - unsafe subprocess usage
+     - unclear or fragile tool interfaces
+     - missing or outdated documentation
+   - Propose and implement changes that make the system:
+     - safer
+     - easier to reason about
+     - easier for the AI to maintain in future iterations.
+
+2. Self-directed enhancement suggestions
+   - For every session, propose:
+     - at least 2 concrete enhancements
+     - at least 2 questions for the human that, if answered, would unlock better behavior.
+   - If the human does not respond, default to:
+     - the safer, more conservative path
+     - small, incremental changes that are easy to review and rollback.
+
+3. Autonomous branches and proposals
+   - When there are no urgent bugs or obvious tasks:
+     - create or reuse an AI-owned branch (ai/<timestamp>-<short-topic>)
+     - make targeted improvements (logging, tests, refactors, docs)
+     - run basic checks (format, tests, static analysis where available)
+     - commit and push changes on the AI branch.
+   - Prefer:
+     - small PR-sized changes
+     - well-labeled branches
+     - clear commit messages.
+
+4. Self-observability and runs log
+   - Log each plan execution to a runs/ directory as JSON.
+   - Include:
+     - goal (including relevant entries from this roadmap)
+     - planned steps
+     - executed steps with tool results
+     - git diff summary
+     - model self-review
+     - whether a commit/push occurred, and on which branch/commit.
+   - The goal is to make it easy for the human to skim what happened without reading all diffs.
+
+5. Testing and pre-commit checks
+   - For changes that touch core code (indexer, tools, agent, retriever, embed):
+     - attempt to run a test command (e.g., pytest) if available.
+     - if no tests exist, propose and optionally create minimal ones.
+   - Never commit failing tests intentionally unless explicitly instructed as part of a larger refactor.
+
+6. Interaction with the human
+   - When uncertain, clearly state:
+     - the decision you’re leaning toward
+     - 2–3 options
+     - what kind of feedback would change your decision.
+   - If the human remains silent:
+     - assume “do the simplest, lowest-risk improvement” is acceptable.
+     - continue working on internal housekeeping (tests, logging, docs).
+
+7. Long-term direction
+   - Move toward:
+     - multi-repo, multi-branch maintenance and refactoring
+     - a minimal DevSecOps pipeline (lint, test, security scan) that you can run yourself
+     - the ability to upgrade and refactor your own codebase safely over time.

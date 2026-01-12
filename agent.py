@@ -1,87 +1,84 @@
+import os
+os.environ["PYTHONIOENCODING"] = "utf-8"
+os.environ["PYTHONUTF8"] = "1"
+
 import json
-import subprocess
+import time
+from pathlib import Path
 
-from retriever import search_code
-import tools
+import agent_core
+import task_queue
+import recovery
+import direction
+from logger import log
 
-
-TOOLS = {
-    "list_repos": tools.list_repos,
-    "list_files": tools.list_files,
-    "read_file": tools.read_file,
-    "write_file": tools.write_file,
-    "apply_patch": tools.apply_patch,
-    "run_command": tools.run_command,
-    "search_code": search_code,
-    "git_status": tools.git_status,
-    "git_diff": tools.git_diff,
-    "git_add_all": tools.git_add_all,
-    "git_checkout": tools.git_checkout,
-    "git_commit": tools.git_commit,
-    "git_pull": tools.git_pull,
-}
+RUNS_DIR = Path("runs")
 
 
-def call_tool(tool_name: str, args: dict):
-    if tool_name not in TOOLS:
-        return {"error": f"Unknown tool: {tool_name}"}
-    try:
-        return TOOLS[tool_name](**args)
-    except TypeError as e:
-        return {"error": f"Bad args for {tool_name}: {e}"}
+def save_run_result(result: dict) -> None:
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    ts = time.strftime("%Y%m%d-%H%M%S")
+    project_id = result.get("project_id", "unknown")
+    role = result.get("role", "unknown")
+    fname = RUNS_DIR / f"run-{project_id}-{role}-{ts}.json"
+    fname.write_text(json.dumps(result, indent=2), encoding="utf-8")
 
 
-def agent_step(model: str, message: str) -> dict:
-    """
-    Single step:
-      - Ask the model what to do
-      - If it returns a tool call, execute it
-      - Otherwise return its response
-    """
-    tool_list = ", ".join(TOOLS.keys())
+def main_loop(model: str = "phi3:mini") -> None:
+    idle_cycles = 0
+    while True:
+        # 1) Check for human direction
+        direction.check_inbox()
 
-    prompt = f"""
-You are an autonomous software engineer called Ghost Pepper Dev.
-You work on git repositories under a root directory.
-You have access to tools: {tool_list}.
+        # 2) Ensure we have some work
+        task_queue.ensure_default_tasks()
 
-When you need to use a tool, respond ONLY with JSON:
+        # 3) Get next task
+        task = task_queue.get_next_task()
 
-{{
-  "tool": "tool_name",
-  "args": {{ ... }}
-}}
+        if not task:
+            idle_cycles += 1
+            if idle_cycles % 3 == 1:
+                log("No tasks in backlog. Sleeping for 30s...")
+            time.sleep(30)
+            continue
 
-Do NOT include explanations when calling tools.
-When you have enough information and don't need tools,
-respond in natural language.
+        idle_cycles = 0
 
-User message:
-{message}
-"""
+        project_id = task["project_id"]
+        goal = task["goal"]
+        role = task.get("role", "general")
 
-    result = subprocess.run(
-        ["ollama", "run", model],
-        input=prompt,
-        text=True,
-        capture_output=True,
-    )
+        log("=== RUNNING TASK ===")
+        log(f"Project: {project_id}")
+        log(f"Role   : {role}")
+        log(f"Goal   : {goal}")
 
-    output = result.stdout.strip()
+        result = recovery.run_with_recovery(
+            project_id=project_id,
+            goal=goal,
+            role=role,
+            runner=agent_core.run_task,
+            model=model,
+        )
 
-    try:
-        data = json.loads(output)
-        if "tool" in data:
-            tool_name = data["tool"]
-            args = data.get("args", {})
-            tool_result = call_tool(tool_name, args)
-            return {"tool_call": data, "tool_result": tool_result}
-    except json.JSONDecodeError:
-        pass
+        save_run_result(result)
 
-    return {"response": output}
+        if "error" not in result:
+            task_queue.complete_task(task)
+
+        log("=== TASK RESULT SUMMARY ===")
+        if "error" in result:
+            log(f"ERROR: {result['error']}")
+        else:
+            review = result.get("review", "") or ""
+            log("Review summary (first 500 chars):")
+            log(review[:500])
+
+        # short pause before next cycle
+        time.sleep(5)
 
 
 if __name__ == "__main__":
-    # Example: single step with a model you have installed, e.g. "qwen2.5-coder:7b"
-    print(agent_step("qwen2.5-coder:7b", "List all repos you can see under the dev folder."))
+    log("Pando Dev multi-agent loop starting up.")
+    main_loop()
