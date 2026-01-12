@@ -5628,7 +5628,7 @@
     "priority": 70,
     "kind": "auto",
     "role": "tester",
-    "status": "in_progress"
+    "status": "done"
   },
   {
     "project_id": "pando-dev",
@@ -5636,6 +5636,6 @@
     "priority": 80,
     "kind": "auto",
     "role": "maintainer",
-    "status": "pending"
+    "status": "in_progress"
   }
 ]
