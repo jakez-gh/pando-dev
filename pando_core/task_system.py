@@ -436,3 +436,16 @@ if __name__ == "__main__":
     # Get stats
     stats = system.get_statistics()
     print(f"\nStatistics: {stats}")
+
+
+# Singleton instance
+_task_system_instance = None
+
+
+def get_task_engine():
+    """Get or create the singleton TaskSystem instance"""
+    global _task_system_instance
+    if _task_system_instance is None:
+        _task_system_instance = TaskSystem()
+    return _task_system_instance
+

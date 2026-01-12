@@ -93,12 +93,40 @@ def read_file(project_id: str, file_path: str) -> str:
         return f.read()
 
 
+def _acquire_lock(path, timeout: int = 10):
+    import time as _time
+    lock_path = Path(str(path) + ".lock")
+    start = _time.time()
+    while True:
+        try:
+            fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_RDWR)
+            os.close(fd)
+            return lock_path
+        except FileExistsError:
+            if _time.time() - start > timeout:
+                raise TimeoutError(f"Timeout acquiring lock for {path}")
+            _time.sleep(0.1)
+
+
+def _release_lock(lock_path):
+    try:
+        os.remove(str(lock_path))
+    except Exception:
+        pass
+
+
 def write_file(project_id: str, file_path: str, content: str) -> bool:
     full = project_path(project_id) / file_path
     full.parent.mkdir(parents=True, exist_ok=True)
-    with open(full, "w", encoding="utf-8") as f:
-        f.write(content)
-    return True
+    lock = None
+    try:
+        lock = _acquire_lock(full)
+        with open(full, "w", encoding="utf-8") as f:
+            f.write(content)
+        return True
+    finally:
+        if lock:
+            _release_lock(lock)
 
 
 def apply_patch(project_id: str, file_path: str, new_content: str) -> bool:

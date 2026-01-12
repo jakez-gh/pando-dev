@@ -1,0 +1,10 @@
+{
+  "pando_version": "0.1.0",
+  "created": "2026-01-12T10:02:09.133990",
+  "components": {
+    "core": "0.1.0",
+    "flask_api": "0.1.0",
+    "agents": "0.1.0",
+    "rag": "0.1.0"
+  }
+}

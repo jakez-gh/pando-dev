@@ -1,0 +1,258 @@
+2026-01-12 10:00:24,590 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:01:23,330 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:01:23,331 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 10:01:23,331 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 10:01:23,331 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 10:01:23,331 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 10:01:23,332 [PandoOrchestrator] INFO:   [ERROR] Flask
+2026-01-12 10:01:23,332 [PandoOrchestrator] INFO:   [ERROR] SocketIO
+2026-01-12 10:01:23,332 [PandoOrchestrator] ERROR: [ERROR] Health check FAILED - cannot start Pando
+2026-01-12 10:01:41,656 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:01:41,656 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 10:01:41,657 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 10:01:41,657 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 10:01:41,657 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 10:01:41,657 [PandoOrchestrator] INFO:   [ERROR] Flask
+2026-01-12 10:01:41,657 [PandoOrchestrator] INFO:   [ERROR] SocketIO
+2026-01-12 10:01:41,658 [PandoOrchestrator] ERROR: [ERROR] Health check FAILED - cannot start Pando
+2026-01-12 10:02:08,726 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:02:09,131 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 10:02:09,131 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 10:02:09,131 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 10:02:09,132 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 10:02:09,132 [PandoOrchestrator] INFO:   [OK] Flask
+2026-01-12 10:02:09,132 [PandoOrchestrator] INFO:   [OK] SocketIO
+2026-01-12 10:02:09,132 [PandoOrchestrator] INFO: [OK] All health checks PASSED
+
+2026-01-12 10:02:09,132 [PandoOrchestrator] INFO: Initializing version management...
+2026-01-12 10:02:09,133 [PandoOrchestrator] INFO: ✅ Created version file: {'pando_version': '0.1.0', 'created': '2026-01-12T10:02:09.133990', 'components': {'core': '0.1.0', 'flask_api': '0.1.0', 'agents': '0.1.0', 'rag': '0.1.0'}}
+2026-01-12 10:02:09,133 [PandoOrchestrator] INFO: Pando Version: 0.1.0
+2026-01-12 10:02:09,133 [PandoOrchestrator] INFO: Initializing RAG system...
+2026-01-12 10:02:09,133 [PandoOrchestrator] INFO: Starting RAG auto-indexer...
+2026-01-12 10:02:09,135 [PandoOrchestrator] INFO: ✅ RAG auto-indexer started
+2026-01-12 10:02:09,135 [PandoOrchestrator] INFO: 
+Starting core services...
+2026-01-12 10:02:09,135 [PandoOrchestrator] INFO: Starting process flask_api: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe pando_gui/backend/app.py
+2026-01-12 10:02:09,138 [PandoOrchestrator] INFO: [OK] flask_api started (PID: 15000)
+2026-01-12 10:02:09,221 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:02:11,140 [PandoOrchestrator] INFO: Starting agent workers...
+2026-01-12 10:02:11,140 [PandoOrchestrator] INFO: Starting process agent_1: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:02:11,144 [PandoOrchestrator] INFO: [OK] agent_1 started (PID: 9716)
+2026-01-12 10:02:12,145 [PandoOrchestrator] INFO: Starting process agent_2: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:02:12,148 [PandoOrchestrator] INFO: [OK] agent_2 started (PID: 2348)
+2026-01-12 10:02:13,150 [PandoOrchestrator] INFO: Starting process agent_3: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:02:13,152 [PandoOrchestrator] INFO: [OK] agent_3 started (PID: 8340)
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: 
+================================================================================
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: [OK] PANDO ORCHESTRATOR RUNNING
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: ================================================================================
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: Flask API: http://localhost:5000
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: Agents: 3 active
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: RAG Auto-Indexing: ENABLED
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: Process Monitor: ACTIVE
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: 
+Pando is now running autonomously. No stopping unless you kill this process.
+2026-01-12 10:02:14,153 [PandoOrchestrator] INFO: ================================================================================
+
+2026-01-12 10:02:14,165 [PandoOrchestrator] INFO: [INFO] Queuing self-improvement tasks for Pando...
+2026-01-12 10:02:14,166 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100214_ac731a
+2026-01-12 10:02:14,166 [PandoOrchestrator] INFO:   [OK] Queued: Review and optimize the autonomy engine for better...
+2026-01-12 10:02:14,167 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100214_8ba8d1
+2026-01-12 10:02:14,168 [PandoOrchestrator] INFO:   [OK] Queued: Add comprehensive unit tests for all core modules...
+2026-01-12 10:02:14,168 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100214_2cf80b
+2026-01-12 10:02:14,168 [PandoOrchestrator] INFO:   [OK] Queued: Implement advanced caching for RAG queries...
+2026-01-12 10:02:14,169 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100214_13fdb8
+2026-01-12 10:02:14,169 [PandoOrchestrator] INFO:   [OK] Queued: Create monitoring dashboard showing system health ...
+2026-01-12 10:02:14,170 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100214_5fa931
+2026-01-12 10:02:14,170 [PandoOrchestrator] INFO:   [OK] Queued: Document all API endpoints with examples...
+2026-01-12 10:02:14,170 [PandoOrchestrator] INFO: [INFO] Total tasks queued: 5
+2026-01-12 10:02:14,170 [PandoOrchestrator] INFO: [INFO] Pando will start working on these autonomously
+
+2026-01-12 10:02:19,154 [PandoOrchestrator] WARNING: ⚠️  Process flask_api exited with code 1
+2026-01-12 10:02:19,154 [PandoOrchestrator] INFO: Restarting Flask API...
+2026-01-12 10:02:19,249 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:02:29,285 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:02:39,328 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:03:14,171 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:04:14,172 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:04:34,691 [PandoOrchestrator] INFO: 
+
+Shutting down Pando...
+2026-01-12 10:06:55,241 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:06:55,619 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 10:06:55,619 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 10:06:55,619 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 10:06:55,620 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 10:06:55,620 [PandoOrchestrator] INFO:   [OK] Flask
+2026-01-12 10:06:55,620 [PandoOrchestrator] INFO:   [OK] SocketIO
+2026-01-12 10:06:55,620 [PandoOrchestrator] INFO: [OK] All health checks PASSED
+
+2026-01-12 10:06:55,620 [PandoOrchestrator] INFO: Initializing version management...
+2026-01-12 10:06:55,629 [PandoOrchestrator] INFO: Pando Version: 0.1.0
+2026-01-12 10:06:55,629 [PandoOrchestrator] INFO: Initializing RAG system...
+2026-01-12 10:06:55,629 [PandoOrchestrator] INFO: Starting RAG auto-indexer...
+2026-01-12 10:06:55,630 [PandoOrchestrator] INFO: ✅ RAG auto-indexer started
+2026-01-12 10:06:55,630 [PandoOrchestrator] INFO: 
+Starting core services...
+2026-01-12 10:06:55,630 [PandoOrchestrator] INFO: Starting process flask_api: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe pando_gui/backend/app.py
+2026-01-12 10:06:55,634 [PandoOrchestrator] INFO: [OK] flask_api started (PID: 14804)
+2026-01-12 10:06:55,675 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:06:57,636 [PandoOrchestrator] INFO: Starting agent workers...
+2026-01-12 10:06:57,636 [PandoOrchestrator] INFO: Starting process agent_1: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:06:57,640 [PandoOrchestrator] INFO: [OK] agent_1 started (PID: 17568)
+2026-01-12 10:06:58,642 [PandoOrchestrator] INFO: Starting process agent_2: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:06:58,642 [PandoOrchestrator] INFO: [OK] agent_2 started (PID: 15740)
+2026-01-12 10:06:59,645 [PandoOrchestrator] INFO: Starting process agent_3: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:06:59,645 [PandoOrchestrator] INFO: [OK] agent_3 started (PID: 2756)
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: 
+================================================================================
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: [OK] PANDO ORCHESTRATOR RUNNING
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: ================================================================================
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: Flask API: http://localhost:5000
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: Agents: 3 active
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: RAG Auto-Indexing: ENABLED
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: Process Monitor: ACTIVE
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: 
+Pando is now running autonomously. No stopping unless you kill this process.
+2026-01-12 10:07:00,649 [PandoOrchestrator] INFO: ================================================================================
+
+2026-01-12 10:07:00,660 [PandoOrchestrator] INFO: [INFO] Queuing self-improvement tasks for Pando...
+2026-01-12 10:07:00,660 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100700_ac1924
+2026-01-12 10:07:00,660 [PandoOrchestrator] INFO:   [OK] Queued: Review and optimize the autonomy engine for better...
+2026-01-12 10:07:00,661 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100700_9a8874
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO:   [OK] Queued: Add comprehensive unit tests for all core modules...
+2026-01-12 10:07:00,661 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100700_78fc2b
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO:   [OK] Queued: Implement advanced caching for RAG queries...
+2026-01-12 10:07:00,661 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100700_a055c3
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO:   [OK] Queued: Create monitoring dashboard showing system health ...
+2026-01-12 10:07:00,661 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_100700_745d49
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO:   [OK] Queued: Document all API endpoints with examples...
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO: [INFO] Total tasks queued: 5
+2026-01-12 10:07:00,661 [PandoOrchestrator] INFO: [INFO] Pando will start working on these autonomously
+
+2026-01-12 10:07:05,649 [PandoOrchestrator] WARNING: ⚠️  Process flask_api exited with code 1
+2026-01-12 10:07:05,649 [PandoOrchestrator] INFO: Restarting Flask API...
+2026-01-12 10:08:00,664 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:09:00,665 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:10:00,666 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:11:00,667 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:12:00,668 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:13:00,669 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:14:00,670 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:15:00,671 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:16:00,671 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:17:00,672 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:17:01,450 [PandoOrchestrator] INFO: 
+
+Shutting down Pando...
+2026-01-12 10:17:07,939 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO:   [OK] Flask
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO:   [OK] SocketIO
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: [OK] All health checks PASSED
+
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: Initializing version management...
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: Pando Version: 0.1.0
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: Initializing RAG system...
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: Starting RAG auto-indexer...
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: ✅ RAG auto-indexer started
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: 
+Starting core services...
+2026-01-12 10:17:08,470 [PandoOrchestrator] INFO: Starting process flask_api: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe pando_gui/backend/app.py
+2026-01-12 10:17:08,478 [PandoOrchestrator] INFO: [OK] flask_api started (PID: 13052)
+2026-01-12 10:17:08,526 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 10:17:10,480 [PandoOrchestrator] INFO: Starting agent workers...
+2026-01-12 10:17:10,480 [PandoOrchestrator] INFO: Starting process agent_1: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:17:10,484 [PandoOrchestrator] INFO: [OK] agent_1 started (PID: 15952)
+2026-01-12 10:17:11,486 [PandoOrchestrator] INFO: Starting process agent_2: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:17:11,486 [PandoOrchestrator] INFO: [OK] agent_2 started (PID: 5432)
+2026-01-12 10:17:12,489 [PandoOrchestrator] INFO: Starting process agent_3: C:\Users\jake\dev\pando-dev\venv\Scripts\python.exe agent.py
+2026-01-12 10:17:12,490 [PandoOrchestrator] INFO: [OK] agent_3 started (PID: 4040)
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: 
+================================================================================
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: [OK] PANDO ORCHESTRATOR RUNNING
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: ================================================================================
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: Flask API: http://localhost:5000
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: Agents: 3 active
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: RAG Auto-Indexing: ENABLED
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: Process Monitor: ACTIVE
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: 
+Pando is now running autonomously. No stopping unless you kill this process.
+2026-01-12 10:17:13,491 [PandoOrchestrator] INFO: ================================================================================
+
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO: [INFO] Queuing self-improvement tasks for Pando...
+2026-01-12 10:17:13,504 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_101713_d95fdc
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO:   [OK] Queued: Review and optimize the autonomy engine for better...
+2026-01-12 10:17:13,504 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_101713_5671c2
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO:   [OK] Queued: Add comprehensive unit tests for all core modules...
+2026-01-12 10:17:13,504 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_101713_019c6f
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO:   [OK] Queued: Implement advanced caching for RAG queries...
+2026-01-12 10:17:13,504 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_101713_0f4e1b
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO:   [OK] Queued: Create monitoring dashboard showing system health ...
+2026-01-12 10:17:13,504 [pando_core.direction_api] INFO: Direction submitted: DIR_20260112_101713_3182fc
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO:   [OK] Queued: Document all API endpoints with examples...
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO: [INFO] Total tasks queued: 5
+2026-01-12 10:17:13,504 [PandoOrchestrator] INFO: [INFO] Pando will start working on these autonomously
+
+2026-01-12 10:17:18,492 [PandoOrchestrator] WARNING: ⚠️  Process flask_api exited with code 1
+2026-01-12 10:17:18,492 [PandoOrchestrator] INFO: Restarting Flask API...
+2026-01-12 10:18:13,513 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 10:18:52,386 [PandoOrchestrator] INFO: 
+
+Shutting down Pando...
+2026-01-12 11:09:14,672 [PandoOrchestrator] INFO: Checking system health...
+2026-01-12 11:09:15,101 [PandoOrchestrator] INFO: ━━ STARTUP HEALTH CHECK ━━
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO:   [OK] config.py
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO:   [OK] pando_core
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO:   [OK] pando_gui
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO:   [OK] Flask
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO:   [OK] SocketIO
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO: [OK] All health checks PASSED
+
+2026-01-12 11:09:15,102 [PandoOrchestrator] INFO: Initializing version management...
+2026-01-12 11:09:15,110 [pando_core.version_manager] INFO: Loaded version: 0.1.0
+2026-01-12 11:09:15,112 [PandoOrchestrator] INFO: Pando Version: 0.1.0
+2026-01-12 11:09:15,112 [PandoOrchestrator] INFO: Initializing RAG system...
+2026-01-12 11:09:15,112 [PandoOrchestrator] INFO: Starting RAG auto-indexer...
+2026-01-12 11:09:15,112 [PandoOrchestrator] INFO: ✅ RAG auto-indexer started
+2026-01-12 11:09:15,112 [PandoOrchestrator] INFO: 
+Starting core services...
+2026-01-12 11:09:15,114 [PandoOrchestrator] INFO: Starting process flask_api: venv\Scripts\python.exe pando_gui/backend/app.py
+2026-01-12 11:09:15,118 [PandoOrchestrator] INFO: [OK] flask_api started (PID: 5364)
+2026-01-12 11:09:15,150 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 11:09:15,233 [pando_core.message_queue] INFO: Message sent: pando → copilot: metric
+2026-01-12 11:09:17,119 [PandoOrchestrator] INFO: Starting agent workers...
+2026-01-12 11:09:17,119 [PandoOrchestrator] INFO: Starting process agent_1: venv\Scripts\python.exe agent.py
+2026-01-12 11:09:17,119 [PandoOrchestrator] INFO: [OK] agent_1 started (PID: 13248)
+2026-01-12 11:09:18,125 [PandoOrchestrator] INFO: Starting process agent_2: venv\Scripts\python.exe agent.py
+2026-01-12 11:09:18,125 [PandoOrchestrator] INFO: [OK] agent_2 started (PID: 1896)
+2026-01-12 11:09:19,129 [PandoOrchestrator] INFO: Starting process agent_3: venv\Scripts\python.exe agent.py
+2026-01-12 11:09:19,129 [PandoOrchestrator] INFO: [OK] agent_3 started (PID: 20404)
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: Starting process monitor...
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: 
+================================================================================
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: [OK] PANDO ORCHESTRATOR RUNNING
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: ================================================================================
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: Flask API: http://localhost:5000
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: Agents: 3 active
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: RAG Auto-Indexing: ENABLED
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: Process Monitor: ACTIVE
+2026-01-12 11:09:20,131 [PandoOrchestrator] INFO: 
+Pando is now running autonomously. No stopping unless you kill this process.
+2026-01-12 11:09:25,132 [PandoOrchestrator] WARNING: ⚠️  Process flask_api exited with code 1
+2026-01-12 11:09:25,132 [PandoOrchestrator] INFO: Restarting Flask API...
+2026-01-12 11:10:20,133 [PandoOrchestrator] INFO: Status: 0/4 processes running
+2026-01-12 11:10:41,434 [PandoOrchestrator] INFO: 🔄 Changes detected, updating RAG index...
+2026-01-12 11:10:41,501 [pando_core.message_queue] INFO: Message sent: pando → copilot: metric
+2026-01-12 11:10:48,453 [PandoOrchestrator] WARNING: Shutting down Pando... reason=signal_2
+2026-01-12 11:10:48,453 [pando_core.message_queue] INFO: Message sent: copilot → pando: control

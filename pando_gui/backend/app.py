@@ -29,13 +29,24 @@ from pando_core.direction_api import get_direction_api
 
 logger = logging.getLogger(__name__)
 
+# Configure logging to see errors
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(name)s] %(levelname)s: %(message)s'
+)
+
+# Try to initialize Pando core, with fallback
+try:
+    pando = PandoCore()
+    logger.info("PandoCore initialized successfully")
+except Exception as e:
+    logger.warning(f"Could not initialize PandoCore: {e}. API will operate in degraded mode.")
+    pando = None
+
 # Initialize Flask app
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
-
-# Initialize Pando core
-pando = PandoCore()
 
 # Connected clients for WebSocket
 connected_clients = set()

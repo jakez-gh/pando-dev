@@ -18,3 +18,6 @@ DEFAULT_MODEL = "llama3.1-8b-12k"
 
 # Maximum context tokens the agent should assume when prompting
 MAX_CONTEXT_TOKENS = 12000
+
+# Temperature to use for code/coding tasks (very low for deterministic outputs)
+CODE_TASK_TEMPERATURE = 0.1
